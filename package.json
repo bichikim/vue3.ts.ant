@@ -59,7 +59,6 @@
     "eslint-plugin-cypress": "^2.11.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.7.0",
-    "husky": "^4.3.0",
     "jest": "^26.6.3",
     "jest-environment-jsdom": "26.6.2",
     "jest-serializer-vue": "^2.0.2",
@@ -77,13 +76,5 @@
     "@vue/cli-plugin-unit-jest/jest": "^26.4.2",
     "@vue/cli-plugin-unit-jest/ts-jest": "^26.3.0",
     "vue-jest/ts-jest": "^26.3.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "precommit": "pretty-quick --staged && prettyhtml-quick --staged",
-      "post-merge": "yarn",
-      "post-rewrite": "yarn"
-    }
   }
 }
